@@ -1,4 +1,103 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071d34"><meta name="description" content="Sondrexo — General Ship Supplies, Cyprus & Greece. Contact sales@sondrexo.com."><title>Sondrexo | General Ship Supplies</title><style>
-:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#fff;background:#071d34;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100svh}main{min-height:100svh;display:flex;align-items:center;position:relative;isolation:isolate;overflow:hidden;padding:clamp(28px,5vw,80px)}main:before{content:"";position:absolute;inset:0;z-index:-2;background:url('maritime-background.webp') center 56%/cover no-repeat;filter:saturate(.83)}main:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(4,22,42,.95) 0%,rgba(5,29,51,.85) 36%,rgba(6,28,48,.35) 72%,rgba(6,28,48,.2) 100%)}.content{width:min(100%,700px);padding:clamp(24px,4vw,50px) 0}.brand{font-size:clamp(40px,6.4vw,78px);font-weight:650;letter-spacing:.12em;line-height:1.08}.brand span{color:#8bc7dd}.descriptor{margin:16px 0 0;letter-spacing:.28em;text-transform:uppercase;font-size:clamp(11px,1.2vw,14px);font-weight:550;color:#e4edf4}.rule{height:2px;width:54px;background:#83bcd1;margin:45px 0 34px}.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#a8d0df;font-weight:700}.heading{font-size:clamp(32px,4.7vw,62px);letter-spacing:-.04em;line-height:1.12;font-weight:500;margin:17px 0 20px}.email{display:inline-flex;align-items:center;gap:13px;margin-top:23px;padding:17px 23px;border:1px solid rgba(255,255,255,.55);border-radius:6px;background:rgba(255,255,255,.95);color:#092944;text-decoration:none;font-size:clamp(14px,1.7vw,17px);font-weight:650;transition:background .2s,transform .2s}.email:hover{background:#dceff6;transform:translateY(-2px)}.email:focus-visible{outline:3px solid #9fdbf0;outline-offset:4px}.email svg{width:20px;height:20px;flex:none}.footer{position:absolute;bottom:27px;left:clamp(28px,5vw,80px);font-size:11px;letter-spacing:.18em;color:rgba(255,255,255,.74);text-transform:uppercase}@media(max-width:650px){main{align-items:center;padding:26px}main:before{background-position:62% center}main:after{background:linear-gradient(180deg,rgba(3,21,40,.8),rgba(3,21,40,.76))}.content{padding:60px 0}.brand{letter-spacing:.065em}.descriptor{letter-spacing:.13em;line-height:1.8}.rule{margin:34px 0}.footer{left:26px;bottom:20px}}@media(prefers-reduced-motion:reduce){.email{transition:none}}
-</style></head><body><main><div class="content"><div class="brand" aria-label="Sondrexo">SONDREX<span>O</span></div><p class="descriptor">General Ship Supplies — Cyprus &amp; Greece</p><div class="rule"></div><div class="eyebrow">Sondrexo</div><h1 class="heading">Website Under<br>Development</h1><a class="email" href="mailto:sales@sondrexo.com" aria-label="Email sales at Sondrexo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg>sales@sondrexo.com <span aria-hidden="true">↗</span></a></div><div class="footer">Cyprus &amp; Greece</div></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#092b4c">
+  <meta name="description" content="Sondrexo — General Ship Supplies in Cyprus & Greece. Our website is under development. For enquiries, email sales@sondrexo.com.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SONDREXO | General Ship Supplies">
+  <meta property="og:description" content="General Ship Supplies — Cyprus & Greece. Website under development. Contact sales@sondrexo.com.">
+  <title>SONDREXO | General Ship Supplies — Cyprus & Greece</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/harbor-background.webp" type="image/webp" fetchpriority="high">
+  <style>
+    :root {
+      --navy: #072d50;
+      --navy-deep: #052442;
+      --blue: #1776aa;
+      --body: #0b3152;
+      --serifless: "Avenir Next", "Century Gothic", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { min-height: 100%; background: #17486a; }
+    body { min-width: 320px; min-height: 100vh; min-height: 100svh; margin: 0; font-family: var(--serifless); color: var(--body); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+    .landing { isolation: isolate; position: relative; display: grid; justify-items: center; align-items: start; min-height: 100vh; min-height: 100svh; overflow: hidden; padding: clamp(96px, 16.4vh, 170px) 22px 80px; }
+    .scene { position: absolute; inset: -3.5%; z-index: -3; pointer-events: none; background-image: url("assets/harbor-background.webp"); background-size: cover; background-position: center center; animation: ambient-drift 32s ease-in-out infinite alternate; will-change: transform; }
+    .ambient-light { position: absolute; inset: 0; z-index: -2; pointer-events: none; background: radial-gradient(ellipse 50% 47% at 56% 37%, rgba(255,255,255,.10), transparent 83%), linear-gradient(to bottom, rgba(4,39,70,.08), rgba(255,255,255,.03) 42%, transparent 75%); animation: breathe 15s ease-in-out infinite alternate; }
+    .landing::after { content:""; pointer-events:none; position:absolute; inset:0; z-index:-1; box-shadow: inset 0 0 120px rgba(5,35,59,.07); }
+    .content { width: min(100%, 780px); display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; }
+    .branding { display:flex; flex-direction:column; align-items:center; width:100%; }
+    .wordmark { display: flex; align-items: center; justify-content:center; width: 100%; gap: .006em; white-space: nowrap; line-height: .95; color: var(--navy-deep); font-size: clamp(54px, 6.2vw, 92px); font-weight: 400; letter-spacing: -.045em; }
+    .wordmark-text { display:inline-block; }
+    .o-mark { height: .91em; width: .91em; flex:none; display:block; margin-left: -.005em; transform: translateY(.025em); }
+    .descriptor { margin: 17px 0 0; font-size: clamp(12px, 1.36vw, 21px); font-weight:400; letter-spacing: .40em; line-height:1.45; padding-left: .4em; white-space:nowrap; }
+    .separator { display:block; width:90px; height:1px; margin: 20px auto 18px; background:linear-gradient(to right, transparent, rgba(14,72,110,.65) 16%, rgba(14,72,110,.65) 84%, transparent); }
+    .location { margin: 0; font-size: clamp(10px, .95vw, 15px); font-weight: 500; letter-spacing: .46em; padding-left:.46em; line-height:1.6; }
+    .message { margin-top: clamp(45px, 5.4vh, 60px); }
+    h1 { margin:0; font-size:clamp(31px, 3.5vw, 52px); font-weight: 350; line-height:1.19; letter-spacing:.075em; }
+    h1 span { display:block; }
+    .intro { font-size: clamp(15px, 1.55vw, 22px); font-weight:400; line-height:1.5; margin: 20px 0 30px; letter-spacing:.012em; }
+    .contact-link { display:inline-flex; align-items:center; justify-content:center; gap: 22px; min-height: 74px; min-width: 414px; padding: 16px 32px; border-radius: 11px; background: linear-gradient(115deg, #002747, #072f55 70%, #0c426a); color:white; text-decoration:none; box-shadow: 0 10px 26px rgba(0, 32, 60, .14); border:1px solid rgba(255,255,255,.08); transition:transform .25s ease, box-shadow .25s ease, background .25s ease; }
+    .contact-link:hover { transform:translateY(-3px); box-shadow:0 16px 34px rgba(0,32,60,.27); background:linear-gradient(115deg, #043a63, #0b416e); }
+    .contact-link:focus-visible { outline:3px solid #fff; outline-offset:4px; }
+    .mail-icon { width:31px; height:31px; stroke:currentColor; stroke-width:1.65; fill:none; flex:none; }
+    .contact-divider { height:32px; width:1px; background: rgba(255,255,255,.58); }
+    .email-text { font-size:clamp(15px, 1.47vw, 21px); font-weight:400; letter-spacing:.01em; white-space:nowrap; }
+    @keyframes ambient-drift { from {transform:scale(1) translate3d(-.35%,0,0);} to {transform:scale(1.045) translate3d(.35%,-.25%,0);} }
+    @keyframes breathe { from {opacity:.28;} to {opacity:.85;} }
+    @media (min-width: 1600px) { .landing { padding-top:clamp(135px, 17vh, 220px); } }
+    @media (max-width: 900px) { .landing {padding-top:clamp(112px, 16vh, 160px);} .wordmark{font-size:clamp(51px,8vw,78px);} h1{font-size:clamp(34px,5.2vw,50px);} .scene{background-position:52% center;} }
+    @media (max-width: 600px) {
+      .landing { min-height: 100svh; padding: max(90px, 13svh) 22px 60px; }
+      .scene { inset:-6%; background-position: 76% center; }
+      .ambient-light { background:linear-gradient(to bottom, rgba(220,234,245,.46) 0%, rgba(245,240,229,.56) 47%, rgba(255,246,232,.16) 80%, transparent); }
+      .wordmark { font-size:clamp(43px, 10.8vw, 66px); letter-spacing:-.048em; }
+      .descriptor { margin-top:12px; font-size:clamp(9px,2.6vw,13px); letter-spacing:.29em; padding-left:.29em; }
+      .separator { margin:15px auto 14px; width:64px; }
+      .location { font-size:clamp(9px,2.2vw,12px); letter-spacing:.28em; padding-left:.28em; }
+      .message { margin-top: clamp(48px, 8vh, 88px); }
+      h1 {font-size: clamp(29px,7.5vw,42px); letter-spacing:.045em; line-height:1.23; }
+      .intro {font-size:clamp(14px,3.8vw,17px); margin: 16px 0 25px; max-width:340px;}
+      .contact-link {width:100%; min-width:0; max-width:380px; min-height:64px; gap:14px; padding:14px 16px; border-radius:9px; }
+      .mail-icon {width:25px;height:25px;}
+      .contact-divider {height:25px;}
+      .email-text {font-size:clamp(14px,3.85vw,18px);}
+    }
+    @media (max-width: 360px) { .wordmark{font-size:40px;} .descriptor{letter-spacing:.22em;} h1{font-size:27px;} }
+    @media (max-height: 720px) and (min-width: 601px) { .landing{padding-top:clamp(45px,10vh,95px); padding-bottom:35px;} .message{margin-top:34px;} .intro{margin:12px 0 22px;} .contact-link{min-height:61px;} }
+    @media (max-height: 680px) and (max-width: 600px) { .landing{padding-top:52px;} .message{margin-top:28px;} }
+    @media (prefers-reduced-motion: reduce) { .scene,.ambient-light{animation:none!important;will-change:auto;} *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;} }
+  </style>
+</head>
+<body>
+  <main class="landing" aria-labelledby="status-title">
+    <div class="scene" aria-hidden="true"></div>
+    <div class="ambient-light" aria-hidden="true"></div>
+    <div class="content">
+      <header class="branding" aria-label="Sondrexo, General Ship Supplies, Cyprus and Greece">
+        <div class="wordmark" aria-label="SONDREXO" role="img">
+          <span class="wordmark-text" aria-hidden="true">SONDREX</span>
+          <svg class="o-mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <defs><clipPath id="o-clip"><circle cx="50" cy="50" r="41"/></clipPath></defs>
+            <circle cx="50" cy="50" r="35.5" fill="none" stroke="#052442" stroke-width="10"/>
+            <g clip-path="url(#o-clip)"><path d="M-6 62 C 19 40, 34 86, 59 62 C 78 44, 90 49, 108 37" fill="none" stroke="#f4f5f3" stroke-width="17" stroke-linecap="round"/><path d="M-5 61 C19 42 33 83 59 61 C 76 47 92 47 108 38" fill="none" stroke="#2480ae" stroke-width="7" stroke-linecap="round"/></g>
+          </svg>
+        </div>
+        <p class="descriptor">GENERAL SHIP SUPPLIES</p>
+        <span class="separator" aria-hidden="true"></span>
+        <p class="location">CYPRUS &amp; GREECE</p>
+      </header>
+      <section class="message" aria-label="Website status and contact">
+        <h1 id="status-title"><span>WEBSITE UNDER</span><span>DEVELOPMENT</span></h1>
+        <p class="intro">For enquiries, please contact us by email.</p>
+        <a class="contact-link" href="mailto:sales@sondrexo.com" aria-label="Email Sondrexo at sales@sondrexo.com">
+          <svg class="mail-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="2.5" y="6.5" width="27" height="19" rx="2.2"/><path d="m4 9 12 10 12-10"/></svg>
+          <span class="contact-divider" aria-hidden="true"></span>
+          <span class="email-text">sales@sondrexo.com</span>
+        </a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
